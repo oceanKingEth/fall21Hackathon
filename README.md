@@ -1,15 +1,13 @@
-# Basic Sample Hardhat Project
+This is my repository from the Fall2021 Chainlink Hackathon
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, a sample script that deploys that contract, and an example of a task implementation, which simply lists the available accounts.
+in terminal:
+mkdir "your_folder_name"
+cd "your_folder_name"
 
-Try running some of the following tasks:
-
-```shell
-npx hardhat accounts
-npx hardhat compile
-npx hardhat clean
-npx hardhat test
-npx hardhat node
-node scripts/sample-script.js
-npx hardhat help
-```
+npm init
+npm install --save-dev hardhat
+npx hardhat    (follow the sample project template)
+npm install @alch/alchemy-web3
+npm install dotenv --save
+npm install --save-dev @nomiclabs/hardhat-ethers "ethers@^5.0.0"
+npm install --save-dev @nomiclabs/hardhat-etherscan
